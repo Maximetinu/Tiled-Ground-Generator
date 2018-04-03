@@ -11,7 +11,7 @@ public class GroundGenerator : MonoBehaviour {
     [InspectorButton("DeleteGround")]
 	public bool delete;
 
-	[Header("Level settings")]
+	[Header("Settings")]
 	[Tooltip("Ground size (in tiles)")]
 	public int floorTiles = 30;
 	[Tooltip("Left and right margins from ground to the borders of the screen (in tiles)")]
